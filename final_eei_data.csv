@@ -1,0 +1,148 @@
+length_cm,diameter_mm,load_N,pasta_type
+20,1.7,0.52,Spaghetti
+18,1.7,0.63,Spaghetti
+16,1.7,0.75,Spaghetti
+14,1.7,0.93,Spaghetti
+12,1.7,1.32,Spaghetti
+10,1.7,1.88,Spaghetti
+8,1.7,3.22,Spaghetti
+20,1.7,0.5,Spaghetti
+18,1.7,0.61,Spaghetti
+16,1.7,0.78,Spaghetti
+14,1.7,0.99,Spaghetti
+12,1.7,1.3,Spaghetti
+10,1.7,1.91,Spaghetti
+8,1.7,3.1,Spaghetti
+20,1.7,0.48,Spaghetti
+18,1.7,0.59,Spaghetti
+16,1.7,0.72,Spaghetti
+14,1.7,0.95,Spaghetti
+12,1.7,1.35,Spaghetti
+10,1.7,1.8,Spaghetti
+8,1.7,3,Spaghetti
+20,1.7,0.55,Spaghetti
+18,1.7,0.66,Spaghetti
+16,1.7,0.8,Spaghetti
+14,1.7,1,Spaghetti
+12,1.7,1.4,Spaghetti
+10,1.7,2,Spaghetti
+8,1.7,3.2,Spaghetti
+20,1.7,0.51,Spaghetti
+18,1.7,0.62,Spaghetti
+16,1.7,0.77,Spaghetti
+14,1.7,0.96,Spaghetti
+12,1.7,1.33,Spaghetti
+10,1.7,1.89,Spaghetti
+8,1.7,3.15,Spaghetti
+20,1.2,0.1,Angel Hair
+18,1.2,0.12,Angel Hair
+16,1.2,0.15,Angel Hair
+14,1.2,0.21,Angel Hair
+12,1.2,0.28,Angel Hair
+10,1.2,0.41,Angel Hair
+8,1.2,0.72,Angel Hair
+20,1.2,0.11,Angel Hair
+18,1.2,0.13,Angel Hair
+16,1.2,0.16,Angel Hair
+14,1.2,0.22,Angel Hair
+12,1.2,0.29,Angel Hair
+10,1.2,0.43,Angel Hair
+8,1.2,0.75,Angel Hair
+20,1.2,0.09,Angel Hair
+18,1.2,0.11,Angel Hair
+16,1.2,0.14,Angel Hair
+14,1.2,0.2,Angel Hair
+12,1.2,0.27,Angel Hair
+10,1.2,0.4,Angel Hair
+8,1.2,0.7,Angel Hair
+20,1.2,0.12,Angel Hair
+18,1.2,0.14,Angel Hair
+16,1.2,0.17,Angel Hair
+14,1.2,0.23,Angel Hair
+12,1.2,0.3,Angel Hair
+10,1.2,0.45,Angel Hair
+8,1.2,0.78,Angel Hair
+20,1.2,0.1,Angel Hair
+18,1.2,0.12,Angel Hair
+16,1.2,0.15,Angel Hair
+14,1.2,0.21,Angel Hair
+12,1.2,0.28,Angel Hair
+10,1.2,0.42,Angel Hair
+8,1.2,0.73,Angel Hair
+20,1.6,0.29,Thin Spaghetti
+18,1.6,0.3,Thin Spaghetti
+16,1.6,0.5,Thin Spaghetti
+14,1.6,0.7,Thin Spaghetti
+12,1.6,0.8,Thin Spaghetti
+10,1.6,1,Thin Spaghetti
+8,1.6,1.7,Thin Spaghetti
+20,1.6,0.28,Thin Spaghetti
+18,1.6,0.31,Thin Spaghetti
+16,1.6,0.52,Thin Spaghetti
+14,1.6,0.73,Thin Spaghetti
+12,1.6,0.84,Thin Spaghetti
+10,1.6,1.05,Thin Spaghetti
+8,1.6,1.77,Thin Spaghetti
+20,1.6,0.31,Thin Spaghetti
+18,1.6,0.29,Thin Spaghetti
+16,1.6,0.48,Thin Spaghetti
+14,1.6,0.68,Thin Spaghetti
+12,1.6,0.79,Thin Spaghetti
+10,1.6,0.98,Thin Spaghetti
+8,1.6,1.68,Thin Spaghetti
+20,1.6,0.3,Thin Spaghetti
+18,1.6,0.33,Thin Spaghetti
+16,1.6,0.51,Thin Spaghetti
+14,1.6,0.71,Thin Spaghetti
+12,1.6,0.82,Thin Spaghetti
+10,1.6,1.03,Thin Spaghetti
+8,1.6,1.72,Thin Spaghetti
+20,1.6,0.27,Thin Spaghetti
+18,1.6,0.32,Thin Spaghetti
+16,1.6,0.49,Thin Spaghetti
+14,1.6,0.69,Thin Spaghetti
+12,1.6,0.81,Thin Spaghetti
+10,1.6,1.01,Thin Spaghetti
+8,1.6,1.75,Thin Spaghetti
+20,1.4,0.15,Vermicelli
+18,1.4,0.19,Vermicelli
+16,1.4,0.23,Vermicelli
+14,1.4,0.33,Vermicelli
+12,1.4,0.43,Vermicelli
+10,1.4,0.66,Vermicelli
+8,1.4,1.17,Vermicelli
+20,1.4,0.14,Vermicelli
+18,1.4,0.18,Vermicelli
+16,1.4,0.24,Vermicelli
+14,1.4,0.35,Vermicelli
+12,1.4,0.45,Vermicelli
+10,1.4,0.68,Vermicelli
+8,1.4,1.2,Vermicelli
+20,1.4,0.16,Vermicelli
+18,1.4,0.2,Vermicelli
+16,1.4,0.22,Vermicelli
+14,1.4,0.32,Vermicelli
+12,1.4,0.42,Vermicelli
+10,1.4,0.65,Vermicelli
+8,1.4,1.15,Vermicelli
+20,1.4,0.17,Vermicelli
+18,1.4,0.21,Vermicelli
+16,1.4,0.25,Vermicelli
+14,1.4,0.34,Vermicelli
+12,1.4,0.44,Vermicelli
+10,1.4,0.67,Vermicelli
+8,1.4,1.18,Vermicelli
+20,1.4,0.15,Vermicelli
+18,1.4,0.19,Vermicelli
+16,1.4,0.23,Vermicelli
+14,1.4,0.33,Vermicelli
+12,1.4,0.43,Vermicelli
+10,1.4,0.66,Vermicelli
+8,1.4,1.17,Vermicelli
+20,1.2,0.14,Angel Hair
+18,1.2,0.21,Angel Hair
+16,1.2,0.25,Angel Hair
+14,1.2,0.32,Angel Hair
+12,1.2,0.5,Angel Hair
+10,1.2,0.87,Angel Hair
+8,1.2,1.3,Angel Hair
