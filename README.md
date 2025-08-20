@@ -1,10 +1,10 @@
-# EEI_Research_ML
 Research Project under the mentorship of Abdiel Rivera, PhD in Electrical Engineering @Uconn
-We aim to answer the question: "Can we use machine learning to accurately predict the critical buckling load of pasta columns based on physical and environmental parameters?"
 
 # Beyond Euler: An Explainable AI Framework for Predicting Pasta Buckling
 
 This repository contains the dataset and Python analysis code for the research paper, "Beyond Euler: An Explainable Machine Learning Framework for Predicting and Interpreting Buckling Instabilities in Non-Ideal Materials."
+
+We aim to answer the question: "Can we use machine learning to accurately predict the critical buckling load of pasta columns based on physical and environmental parameters?"
 
 ## Project Description
 
