@@ -12,7 +12,7 @@ This project uses an XGBoost machine learning model to predict the critical buck
 
 ## Files in this Repository
 
-1.  **`final_eei_data.csv`**: The complete dataset containing 147 experimental samples of pasta buckling tests.
+1.  **`buckling_data.csv`**: The complete dataset containing 147 experimental samples of pasta buckling tests.
 2.  **`final_analysis.py`**: The Python script used to perform the entire analysis.
 
 ## Requirements
@@ -25,7 +25,7 @@ To run the analysis, you will need Python 3 and the following libraries:
 * shap
 * matplotlib
 
-You can install these with pip or pip3 (mac):
+You can install these with pip or pip3 (for mac):
 `pip install pandas xgboost scikit-learn shap matplotlib`
 
 ## How to Run
