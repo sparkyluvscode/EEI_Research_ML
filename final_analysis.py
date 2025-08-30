@@ -1,10 +1,9 @@
-# ==============================================================================
 # FINAL SCRIPT FOR: "Beyond Euler: An Explainable Machine Learning Framework..."
-# DESCRIPTION: This script loads the final, clean 147-sample dataset,
+# DESCRIPTION: This script loads the final 147-sample dataset,
 #              engineers features, trains an XGBoost model, evaluates its
 #              performance, and generates SHAP plots for explainability.
 # DATA SOURCE: final_eei_data.csv
-# ==============================================================================
+
 
 import pandas as pd
 import numpy as np
@@ -16,7 +15,7 @@ import matplotlib.pyplot as plt
 
 print("Libraries imported successfully.")
 
-# --- 1. Load the Final Dataset ---
+# 1. Load the Final Dataset 
 try:
     df = pd.read_csv('final_eei_data.csv')
     print("Dataset 'final_eei_data.csv' loaded successfully.")
@@ -26,13 +25,13 @@ except FileNotFoundError:
     print("Please make sure the data file is in the same folder as this script.")
     exit()
 
-# --- 2. Feature Engineering ---
+# 2. Feature Engineering 
 df['length_m'] = df['length_cm'] / 100.0
 df['diameter_m'] = df['diameter_mm'] / 1000.0
 df['G_feature'] = (df['diameter_m']**4) / (df['length_m']**2)
 df = pd.get_dummies(df, columns=['pasta_type'], prefix='type')
 
-# Define features and target.
+# 3. Define features and target
 features = [col for col in df.columns if col.startswith('type_') or col in ['length_m', 'diameter_m', 'G_feature']]
 target = 'load_N'
 
@@ -42,7 +41,7 @@ y = df[target]
 print("\nFeature engineering complete.")
 print("Features for model:", features)
 
-# --- 3. Model Training with 5-Fold Cross-Validation ---
+# 4. Model Training with 5-Fold Cross-Validation 
 model = xgb.XGBRegressor(objective='reg:squarederror', n_estimators=100, learning_rate=0.1, random_state=42)
 kf = KFold(n_splits=5, shuffle=True, random_state=42)
 r2_scores, rmse_scores = [], []
@@ -59,7 +58,7 @@ for fold, (train_index, val_index) in enumerate(kf.split(X, y)):
     rmse_scores.append(rmse)
     print(f"Fold {fold+1}: R² = {r2:.3f}, RMSE = {rmse:.3f} N")
 
-# --- 4. Final Performance Evaluation ---
+# 5. Final Performance Evaluation 
 avg_r2 = np.mean(r2_scores)
 avg_rmse = np.mean(rmse_scores)
 
@@ -70,11 +69,11 @@ print(f"FINAL Average RMSE:     {avg_rmse:.3f} N")
 print("-------------------------------------------")
 print("Use these values to update your manuscript.")
 
-# --- 5. Generate and Save Figures ---
+# 6. Generate and Save Figures 
 print("\nGenerating and saving figures...")
 model.fit(X, y) # Train model on all data for final plots
 
-# --- Predicted vs. Actual Plot ---
+# 7. Predicted vs. Actual Plot 
 y_full_pred = model.predict(X)
 plt.figure(figsize=(8, 6))
 plt.scatter(y, y_full_pred, alpha=0.7, edgecolors='k')
@@ -88,7 +87,7 @@ plt.savefig('predicted_vs_actual.png', dpi=300)
 plt.close()
 print("Saved 'predicted_vs_actual.png'")
 
-# --- SHAP Summary Plot ---
+# 8. SHAP Summary Plot 
 explainer = shap.Explainer(model)
 shap_values = explainer(X)
 plt.figure()
