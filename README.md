@@ -1,6 +1,12 @@
 Research Project under the mentorship of Abdiel Rivera, PhD in Electrical Engineering @Uconn
 
-# Beyond Euler: An Explainable AI Framework for Predicting Pasta Buckling
+## Beyond Euler: An Explainable Machine Learning Framework for Predicting and Interpreting Buckling Instabilities in Non-Ideal Materials
+
+#### Pranil Raichurav \*<sup>1</sup>, Brandon Yee <sup>1</sup>, Dr. Abdiel Rivera <sup>1</sup>
+
+<sup>1</sup> Department of Electrical and Computer Engineering, University of Connecticut, 06269, CT, USA
+
+Correspondence: pranil.raichura@gmail.com
 
 This repository contains the dataset and Python analysis code for the research paper, "Beyond Euler: An Explainable Machine Learning Framework for Predicting and Interpreting Buckling Instabilities in Non-Ideal Materials."
 
@@ -13,27 +19,16 @@ This project uses an XGBoost machine learning model to predict the critical buck
 ## Files in this Repository
 
 1.  **`buckling_data.csv`**: The complete dataset containing 147 experimental samples of pasta buckling tests.
-2.  **`final_analysis.py`**: The Python script used to perform the entire analysis.
-
-## Requirements
-
-To run the analysis, you will need Python 3 and the following libraries:
-
-* pandas
-* xgboost
-* scikit-learn
-* shap
-* matplotlib
-
-You can install these with pip or pip3 (for mac):
-`pip install pandas xgboost scikit-learn shap matplotlib`
+2.  **`main.py`**: The Python script used to perform the entire analysis.
+3. **`/results/`**: The analysis results directory
 
 ## How to Run
 
-1.  Clone this repository or download the files.
-2.  Ensure `final_analysis.py` and `final_eei_data.csv` are in the same folder.
-3.  Open a terminal or command prompt, navigate to that folder, and run the following command:
+```
+git clone https://github.com/sparkyluvscode/EEI_Research_ML.git
+cd EEI_Research_ML.git
 
-    `python final_analysis.py`
+pip install -r requirements.txt
 
-The script will print the final R² and RMSE values to the console and save the figures (`predicted_vs_actual.png` and `shap_summary_plot.png`) to the folder.
+python main.py
+```
