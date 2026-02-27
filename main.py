@@ -378,7 +378,7 @@ plt.ylabel("Predicted Critical Load (N)")
 plt.title(f"Predicted vs. Actual Load (R² = {avg_r2:.2f})")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("results/predicted_vs_actual.png", dpi=300)
+plt.savefig("results/2predicted_vs_actual.png", dpi=300)
 plt.close()
 print("Saved 'results/predicted_vs_actual.png'")
 
@@ -389,7 +389,7 @@ plt.figure()
 shap.summary_plot(shap_values, X, show=False)
 plt.title("SHAP Summary Plot: Global Feature Importance")
 plt.tight_layout()
-plt.savefig("results/shap_summary_plot.png", dpi=300)
+plt.savefig("results/2shap_summary_plot.png", dpi=300)
 plt.close()
 print("Saved 'results/shap_summary_plot.png'")
 
@@ -426,7 +426,7 @@ for bar, score in zip(bars, r2_scores_plot):
     )
 
 plt.tight_layout()
-plt.savefig("results/model_comparison.png", dpi=300)
+plt.savefig("results/2model_comparison.png", dpi=300)
 plt.close()
 print("Saved 'results/model_comparison.png'")
 
@@ -456,7 +456,7 @@ for bar, importance in zip(bars, feature_importances):
     )
 
 plt.tight_layout()
-plt.savefig("results/feature_importance_length_diameter_G.png", dpi=300)
+plt.savefig("results/2feature_importance_length_diameter_G.png", dpi=300)
 plt.close()
 print("Saved 'results/feature_importance_length_diameter_G.png'")
 
@@ -479,7 +479,7 @@ plt.ylabel("Average Predicted P_cr (N)")
 plt.title("Partial Dependence: Effect of Length on Critical Load")
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig("results/pdp_length.png", dpi=300)
+plt.savefig("results/2pdp_length.png", dpi=300)
 plt.close()
 print("Saved 'results/pdp_length.png'")
 
@@ -517,7 +517,7 @@ plt.plot(
 )
 plt.legend()
 plt.tight_layout()
-plt.savefig("results/pcr_vs_G_by_gauge.png", dpi=300)
+plt.savefig("results/2pcr_vs_G_by_gauge.png", dpi=300)
 plt.close()
 print("Saved 'results/pcr_vs_G_by_gauge.png'")
 
@@ -581,7 +581,7 @@ plt.title("Physics vs Machine Learning Approaches")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("results/physics_vs_ml_comparison.png", dpi=300, bbox_inches="tight")
+plt.savefig("results/2physics_vs_ml_comparison.png", dpi=300, bbox_inches="tight")
 plt.close()
 print("Saved 'results/physics_vs_ml_comparison.png'")
 
