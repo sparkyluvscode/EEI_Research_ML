@@ -1,4 +1,4 @@
-Research Project under the mentorship of Abdiel Rivera, PhD in Electrical Engineering @Uconn
+Research Project; Under peer-review @IEEE Access Journal 
 
 ## Beyond Euler: An Explainable Machine Learning Framework for Predicting and Interpreting Buckling Instabilities in Non-Ideal Materials
 
